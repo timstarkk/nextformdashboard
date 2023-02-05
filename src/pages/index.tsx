@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
 
-import EmotionButton from '../components/EmotionButton';
+import StyledEmotionButton from '../components/StyledEmotionButton';
 
 const Home: NextPage = () => {
   return (
@@ -18,7 +18,7 @@ const Home: NextPage = () => {
           <a className="text-blue-600" href="https://nextjs.org">
             Next.js!
           </a>
-          <EmotionButton />
+          <StyledEmotionButton />
         </h1>
 
         <p className="mt-3 text-2xl">

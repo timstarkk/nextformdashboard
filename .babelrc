@@ -1,4 +1,9 @@
 {
     "presets": ["next/babel"],
-    "plugins": ["@emotion/babel-plugin"]
+    "plugins": [
+        "@emotion/babel-plugin",
+        // exclude all files in .yarn/__virtual__ and .yarn/cache, except for @mdisrupt-common
+        ["babel-plugin-twin", { "debug": true }],
+        "babel-plugin-macros"
+    ]
 }
