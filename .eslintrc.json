@@ -65,10 +65,10 @@
     "prettier/prettier": "error",
     "react/display-name": "off",
     "react/no-children-prop": "off",
-    "react/react-in-jsx-scope": "error",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "react/no-unknown-property": "off"
+    "react/no-unknown-property": "off",
+    "react/react-in-jsx-scope": "off"
   },
   "parser": "@typescript-eslint/parser",
   "settings": {
